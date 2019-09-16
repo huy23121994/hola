@@ -1,5 +1,5 @@
 {
-  "name": "hola",
+  "name": "react-state-shared",
   "version": "0.0.1",
   "description": "Share state for React apps",
   "repository": "https://github.com/huy23121994/hola.git",
@@ -7,6 +7,9 @@
   "dependencies": {
     "react": "^16.8.3"
   },
+  "plugins": [
+    "@babel/plugin-proposal-class-properties"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
